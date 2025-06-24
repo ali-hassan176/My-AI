@@ -5,6 +5,7 @@ import pygame
 import tempfile
 import time
 import webbrowser
+import musiclibrary
 def speak(text):
     tts = gTTS(text=text, lang='en', slow=True)  # Slower and smoother
     with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as fp:
@@ -32,6 +33,13 @@ def processcommand(c):
     elif "open github" in c.lower():
         speak("opening github")
         webbrowser.open("https://github.com")
+    elif "open linkedin" in c.lower():
+        speak("opening github")
+        webbrowser.open("https://www.linkedin.com")
+    elif c.lower().startswith("play")
+        song = c.lower().split(" ")[1]
+        link = musiclibrary.music[song]
+        webbrowser.open(link)
     
     
     
