@@ -19,7 +19,7 @@ my function that is 4 in my case
 git clone 
 https://github.com/ali-hassan176/My-AI.git
 -Make sure to install require libraries
--For requirements look into the requirements.txt
+include pygame,speech recongnition,pyaudio,gtts
 
 # How to use
 first say the 'friday'
