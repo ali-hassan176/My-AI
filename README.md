@@ -10,6 +10,8 @@ my function that is 4 in my case
 -Converts speech to text using Google's API
 -Responds with realistic female voice using `gTTS`
 -Gracefully handles timeouts and recognition errors
+-open different sites by voice command(site link must be in the processcommand function)
+-play the music by command(link must be in musiclibrary)
 
 # Setup Instructions
 -Clone the repo
