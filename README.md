@@ -18,3 +18,8 @@ git clone
 https://github.com/ali-hassan176/My-AI.git
 -Make sure to install require libraries
 -For requirements look into the requirements.txt
+
+# How to use
+first say the 'friday'
+then if it says 'yes sir..'
+then you can command like open google,instagram,github,youtube,whatsapp(web)
