@@ -12,6 +12,7 @@ my function that is 4 in my case
 -Gracefully handles timeouts and recognition errors
 -open different sites by voice command(site link must be in the processcommand function)
 -play the music by command(link must be in musiclibrary)
+-tell the local time
 
 # Setup Instructions
 -Clone the repo
@@ -19,7 +20,7 @@ my function that is 4 in my case
 git clone 
 https://github.com/ali-hassan176/My-AI.git
 -Make sure to install require libraries
-include pygame,speech recongnition,pyaudio,gtts
+include pygame,speech recongnition,pyaudio,gtts,time,webbrowser,tempfile,datetime,os
 
 # How to use
 first say the 'friday'
